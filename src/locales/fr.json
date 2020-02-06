@@ -1,0 +1,35 @@
+{
+  "connexion": "Connexion",
+  "register": "Enregistrer",
+  "phoneNumber": "Numéro de téléphone",
+  "password": "Mot de passe",
+  "newPassword": "Nouveau mot de passe",
+  "oldPassword": "Ancien mot de passe",
+  "confirmPassword": "Confirmation du mot de passe",
+  "code": "Code",
+  "email": "Email",
+  "name": "Nom",
+  "send": "Envoyer",
+  "home-title": "Accueil",
+  "region-title": "Région",
+  "account": "Mon compte",
+  "lost-password": "Mot de passe oublié",
+  "search": "Rechercher",
+  "logout": "Déconnexion",
+  "back": "Retour",
+  "add": "Ajouter",
+  "cancel": "Annuler",
+  "update": "Modifier",
+  "validate": "Valider",
+
+  "INPUT_EMPTY": "Veuillez renseigner vos champs",
+  "INPUT_NOT_SAME": "Votre nouveau mot de passe ne correspond à votre mot de passe confirmé, veuillez réessayer.",
+  "INPUT_NOT_EMAIL": "Veuillez entrer un email pour effectuer votre demande",
+
+  "LOGIN_ERROR_401": "Email ou mot de passe incorrect",
+  "LOGIN_ERROR_403": "Suite à une erreur, vous n'avez pas pu vous connecter",
+  "LOGIN_ERROR_440": "Votre session a expiré, veuillez vous connecter.",
+  "LOGIN_ERROR_500": "Vous n'avez pas pu vous connecter au serveur, veuillez réessayer plus tard.",
+
+  "EVENT_DIDAC": "Une erreur est survenue pendant votre action, veuillez réessayer."
+}

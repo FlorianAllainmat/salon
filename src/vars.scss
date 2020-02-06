@@ -1,0 +1,53 @@
+@function asset($path) {
+    @return url("~@/assets/#{$path}");
+}
+
+$color-green-1: linear-gradient(to bottom, #60b764, #4e9951 70%);
+$color-yellow-1: linear-gradient(to bottom, #FEE215, #DFC612 70%);
+$color-red-3: linear-gradient(to right, #FF0000, #cc0000 60%);
+$color-blue-1: linear-gradient(to right, #1fb8cc, #0099CC 60%);
+$color-blue-3: linear-gradient(to bottom, #1fb8cc, #0099CC 70%);
+$color-green-2: #60b764;
+$color-blue-2: #0099CC;
+$color-blue: #00628b;
+$color-grey-dark: #464c4f;
+$color-grey: #738087;
+$color-grey-light: #d3d3d3;
+$color-grey-background: #eeeeee;
+$color-white-1: #ffffff;
+$color-green-3: #6ce919;
+$color-red-1: #ea591a;
+$color-red-2: #e27c7c;
+$color-gray-1: #f2f2f2;
+$color-black-1: #000000;
+
+$min-block: 180px;
+
+$box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+%title-page {
+    height: 70px;
+    width: 100%;
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    top: 0px;
+    align-items: center;
+    background-color: $color-grey-background;
+    color: $color-grey;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+%form {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    background-color: #ffffff;
+    max-width: 520px;
+    margin: 5px auto;
+    padding: 15px;
+    text-align: start;
+    border-radius: 3px;
+    box-shadow: $box-shadow;
+}
